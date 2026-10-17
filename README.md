@@ -23,6 +23,12 @@ Dal Pozzolo, Borghesi & Pascal (ICDM 2018). ODbL 1.0.
 **19 of which are fraudulent** | Time monotonically increasing, fraud rate
 varies 0.077%–0.327% across time deciles.
 
+**Dataset:** Credit Card Fraud Detection
+**Source:** Dal Pozzolo, Borghesi & Pascal (ICDM 2018) — https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+**License:** Open Database License (ODbL) v1.0
+**Not redistributed.** `creditcard.csv` is excluded via `.gitignore`; download it
+directly from Kaggle and place it in `data/`.
+
 ## Cleaning decisions
 | Decision | Rows | Rationale |
 |---|---|---|
