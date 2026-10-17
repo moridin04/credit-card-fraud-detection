@@ -218,3 +218,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------- Project-specific ----------
+# Dataset: 143 MB, ODbL-licensed, not ours to redistribute.
+data/
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.joblib
+
+# Secrets. kaggle.json holds a live API key; GitHub's secret scanning
+# will find it within minutes of a public push and revoke it.
+kaggle.json
+*.key
+*.pem
+
+# Generated artefacts (recreate with scripts/run_analysis.py).
+# Delete these two lines if you WANT your figures committed to the repo.
+outputs/figures/
+outputs/*.json
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
