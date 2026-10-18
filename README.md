@@ -4,7 +4,7 @@
 
 # Fraud Anomaly Detection
 
-> Isolation Forest, a reconstruction autoencoder, and Local Outlier Factor
+> Isolation Forest, a reconstruction Autoencoder, and Local Outlier Factor
 > evaluated on 284,807 European card transactions (473 fraudulent, 0.167%
 > after de-duplication) under a temporal holdout.
 > **The Autoencoder reached PR-AUC 0.149 versus 0.0015 for an
@@ -37,8 +37,11 @@ Dal Pozzolo, Borghesi & Pascal (ICDM 2018). ODbL 1.0.
 varies 0.077%-0.327% across time deciles.
 
 **Dataset:** Credit Card Fraud Detection
+
 **Source:** Dal Pozzolo, Borghesi & Pascal (ICDM 2018) - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 **License:** Open Database License (ODbL) v1.0
+
 **Not redistributed.** `creditcard.csv` is excluded via `.gitignore`; download it
 directly from Kaggle and place it in `data/`.
 
